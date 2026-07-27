@@ -1,7 +1,27 @@
 aid: iconic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iconic.png
 name: Iconic
-description: 'Iconic is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Iconic (Iconic Interactive) is an AI gaming studio building real-time
+  AI systems for video games and interactive storytelling — "Digital Actor" technology
+  that lets game characters listen, react, and evolve alongside the player by combining
+  speech recognition, large language models, and text-to-speech into low-latency conversational
+  performances. Founded by veterans of GTA, Forza, Just Cause, and Sleeping Dogs with
+  AI researchers from Cambridge and Imperial College, the company is backed by Northzone.
+  Its flagship title, The Oversight Bureau, ships a demo on Steam. Iconic operates a
+  marketing site, a Labs surface, and a technical blog; it does not currently publish
+  a public developer API, OpenAPI, or SDKs. This profile was surfaced as a Northzone
+  portfolio company and enriched by the API Evangelist pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/iconic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Ai
+- Gaming
+- Interactive Storytelling
+- Generative AI
+- Machine Learning
+- Video Games
+- Conversational AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,23 @@ maintainers:
 common:
 - type: Website
   url: https://iconicgames.io
+- type: Blog
+  url: https://iconicgames.io/blog
+- type: Labs
+  url: https://labs.iconicgames.io
+- type: Product
+  name: The Oversight Bureau (Demo) on Steam
+  url: https://store.steampowered.com/app/4005360/The_Oversight_Bureau__Demo/
+- type: Careers
+  url: https://ats.rippling.com/en-GB/iconic/jobs
+- type: LinkedIn
+  url: https://www.linkedin.com/company/iconicgamesio
+- type: X
+  url: https://x.com/iconicgamesio
+- type: DomainSecurity
+  url: security/iconic-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
