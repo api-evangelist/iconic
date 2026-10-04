@@ -49,7 +49,7 @@ tags:
 - Gaming
 - Interactive Storytelling
 - Generative AI
-- Machine-Learning
+- Machine Learning
 - Video Games
 - Conversational AI
 tags_raw:
@@ -61,6 +61,7 @@ tags_raw:
 - Machine Learning
 - Video Games
 - Conversational AI
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
